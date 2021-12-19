@@ -229,6 +229,8 @@ hdfs namenode -format
 
 # Start the cluster
 start-dfs.sh
+
+#on rm server
 start-yarn.sh
  
 dsh -a jps
